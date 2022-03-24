@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{4ACAFB1C-B0BE-4CC0-B10A-1FF83B3E90BD}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="amandaproject/Program.cs">
     <Files>
-      <File FileName="amandaproject/Program.cs" Line="362" Column="16" />
+      <File FileName="amandaproject/Program.cs" Line="396" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="amandaproject" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.amandaproject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -13,7 +13,7 @@ namespace amandaproject
             sbyte sb; // -128 до 127 
             short sh; //-32768 до 32767
             ushort us; //0 до 65535
-            int i;   //-2147483648 до 2147483647
+           // int i;   //-2147483648 до 2147483647
             uint ui;//0 до 4294967295
             long ln; //
             ulong ul;
@@ -55,11 +55,11 @@ namespace amandaproject
 
 
 
-            int age = 18;
-            age /= 1;
+           // int age = 18;
+            //age /= 1;
 
-            int itog;
-            itog = 5 + (5 + 2) * 2 - 2 + 2 / 2;
+            //int itog;
+            //itog = 5 + (5 + 2) * 2 - 2 + 2 / 2;
 
 
 
@@ -112,10 +112,10 @@ namespace amandaproject
 
 
             ///////////////     Конвертация
-            int agee;
-            string strrr = "15";
-            agee = Convert.ToInt32(strrr);
-            Console.WriteLine(agee);
+          //  int agee;
+            //string strrr = "15";
+            //agee = Convert.ToInt32(strrr);
+            //Console.WriteLine(agee);
 
 
             bool a = Convert.ToBoolean(1);
@@ -311,58 +311,89 @@ namespace amandaproject
 
             //практика 2
 
-            int rubToUsd = 56, usdToRub = 66;
+            //int rubToUsd = 56, usdToRub = 66;
 
-            float rub;
-            float usd;
-            string userInput;
-            float currencyCount;
+            //float rub;
+            //float usd;
+            //string userInput;
+            //float currencyCount;
 
            
 
-            Console.WriteLine("Добро пожаловать в обменник валют. У нас вы можете обменять рубли в доллары и доллары в рубли");
+            //Console.WriteLine("Добро пожаловать в обменник валют. У нас вы можете обменять рубли в доллары и доллары в рубли");
 
-            Console.Write("Введите баланс рублей:");
-            rub = Convert.ToSingle(Console.ReadLine());
-            Console.Write("Введите баланс доллар:");
-            usd = Convert.ToSingle(Console.ReadLine());
-
-
-            Console.WriteLine("1 - обменять рубли на доллары");
-            Console.WriteLine("2 - Обменять доллары на рубли");
-            userInput = Console.ReadLine(); 
+            //Console.Write("Введите баланс рублей:");
+            //rub = Convert.ToSingle(Console.ReadLine());
+            //Console.Write("Введите баланс доллар:");
+            //usd = Convert.ToSingle(Console.ReadLine());
 
 
-            switch (userInput)
-            {
-                case "1":
-                    Console.WriteLine("Обменять рублей на доллары");
-                    Console.Write("Сколько вы хотите обмнять?;");
-                    currencyCount = Convert.ToSingle(Console.ReadLine());
-                    if (rub >= currencyCount)
-                    {
-                        rub -= currencyCount;
-                        usd += currencyCount / rubToUsd;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Недопустумое кол-во рублей");
-                    }
-                    break;
+            //Console.WriteLine("1 - обменять рубли на доллары");
+            //Console.WriteLine("2 - Обменять доллары на рубли");
+            //userInput = Console.ReadLine(); 
 
-                case "2":
-                    Console.WriteLine("Обмен доллары на рбули");
-                    Console.Write("Сколько вы хотите обменять");
-                    currencyCount = Convert.ToSingle(Console.ReadLine());
-                    if(usd >= currencyCount)
-                    {
-                        usd -= currencyCount;
-                        usd += currencyCount * usdToRub;
-                    }
+
+            //switch (userInput)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Обменять рублей на доллары");
+            //        Console.Write("Сколько вы хотите обмнять?;");
+            //        currencyCount = Convert.ToSingle(Console.ReadLine());
+            //        if (rub >= currencyCount)
+            //        {
+            //            rub -= currencyCount;
+            //            usd += currencyCount / rubToUsd;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Недопустумое кол-во рублей");
+            //        }
+            //        break;
+
+            //    case "2":
+            //        Console.WriteLine("Обмен доллары на рбули");
+            //        Console.Write("Сколько вы хотите обменять");
+            //        currencyCount = Convert.ToSingle(Console.ReadLine());
+            //        if(usd >= currencyCount)
+            //        {
+            //            usd -= currencyCount;
+            //            usd += currencyCount * usdToRub;
+            //        }
                
-                    break;
+            //        break;
+            //}
+            //Console.WriteLine("Ваш баланс  " + rub + " рублей и " + usd + " долларов.");
+
+
+
+            //lesson 17/5   цикл while
+
+
+            //int age = 10;
+
+            //while(age-- > 0)
+            //{
+            //    if(age == 5)
+            //    {
+            //        break;  //5
+            //        //continue;   10
+            //     }
+            //    Console.WriteLine("Hypy birthday to you!");
+                 
+            // }
+
+
+
+
+
+            ///////???????  Lesson 18 / 6    цикл for
+           
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
             }
-            Console.WriteLine("Ваш баланс  " + rub + " рублей и " + usd + " долларов.");
+
+
        }
     }
 } 
